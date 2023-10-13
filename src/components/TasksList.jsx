@@ -1,7 +1,11 @@
 import { List } from "@mui/material";
 import { Task } from "./Task";
 
-export function TasksList({ todos, handleTaskCompletedToggle }) {
+export function TasksList({
+  todos,
+  handleTaskCompletedToggle,
+  handleTaskDelete,
+}) {
   return (
     <List
       sx={{
@@ -21,6 +25,7 @@ export function TasksList({ todos, handleTaskCompletedToggle }) {
           task={todo.task}
           completed={todo.completed}
           onToggle={() => handleTaskCompletedToggle(todo.id)}
+          onDelete={() => handleTaskDelete(todo.id)}
         />
       ))}
     </List>
