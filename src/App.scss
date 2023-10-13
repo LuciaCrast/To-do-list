@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 50px auto;
+  max-width: 400px;
+  border-radius: 10px;
+  border-color: #ffff;
+}
