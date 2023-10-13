@@ -27,6 +27,15 @@ function App() {
       setIncompleteTodos([]);
     }
   };
+  const handleTaskDelete = (taskId) => {
+    // Eliminar la tarea según su ID en los arreglos correspondientes
+    setIncompleteTodos((prevIncompleteTodos) =>
+      prevIncompleteTodos.filter((todo) => todo.id !== taskId)
+    );
+    setCompletedTodos((prevCompletedTodos) =>
+      prevCompletedTodos.filter((todo) => todo.id !== taskId)
+    );
+  };
 
   const handleTaskCompletedToggle = (taskId) => {
     if (showCompleted) {
@@ -62,6 +71,7 @@ function App() {
         <TasksList
           todos={showCompleted ? completedTodos : incompleteTodos}
           handleTaskCompletedToggle={handleTaskCompletedToggle}
+          handleTaskDelete={handleTaskDelete}
         />
         <TaskFilter
           toggleCompleted={toggleCompleted}
