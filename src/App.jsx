@@ -28,7 +28,6 @@ function App() {
     }
   };
   const handleTaskDelete = (taskId) => {
-    // Eliminar la tarea según su ID en los arreglos correspondientes
     setIncompleteTodos((prevIncompleteTodos) =>
       prevIncompleteTodos.filter((todo) => todo.id !== taskId)
     );
