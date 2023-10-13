@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Todo List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicación elaborada para la prueba técnica de Check-in-Scan.
 
-## Available Scripts
+La aplicación es una Todo List con la siguientes funcionalidades:
 
-In the project directory, you can run:
+- Formulario con input y botón para el envío de las tareas.
+- Panel de tareas, se filtran según si están ya completadas o no, su estado se define
+  mediante un Checkbox.
+- Botones para filtrar las tareas y borrado. El botón de tareas pendientes viene marcado
+  por defecto. Al pulsar en el botón de completadas, se renderizarán las tareas ya
+  acabadas con la posibilidad de devolverlas a pendientes si se quisieran re-utilizar.
+- Botones de Borrado, tenemos dos botones de borrado el primero nos aparece por defecto abajo,
+  permite que borremos todas las tareas pendientes o todas las tareas completas. El segundo,
+  aparece individualmente junto a cada tarea y permite borrarlas individualmente.
 
-### `npm start`
+## Stack ![🛠️](https://fonts.gstatic.com/s/e/notoemoji/13.1.1/1f6e0_fe0f/32.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+App built with:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [React](<[https://reactjs.org/](https://reactjs.org/)>)
+- [React Hooks](<[https://reactjs.org/docs/hooks-intro.html](https://reactjs.org/docs/hooks-intro.html)>)
+- [MUI]([https://v4.mui.com/es/])
+- [Eslint](<[https://eslint.org/](https://eslint.org/)>)
+- [Sass](<[https://sass-lang.com/](https://sass-lang.com/)>)
 
-### `npm test`
+## Set up ![🔧](https://fonts.gstatic.com/s/e/notoemoji/13.1.1/1f527/32.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Ejecute el siguiente comando para instalar todos los paquetes necesarios
 
-### `npm run build`
+> npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Run
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Note
 
-### `npm run eject`
+>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Author ![✒️](https://fonts.gstatic.com/s/e/notoemoji/13.1.1/2712_fe0f/32.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Lucía Cano** [https://www.linkedin.com/in/luciacanoras/]
