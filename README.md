@@ -1,7 +1,5 @@
 # Todo List
 
-Aplicación elaborada para la prueba técnica de Check-in-Scan.
-
 La aplicación es una Todo List con la siguientes funcionalidades:
 
 - Formulario con input y botón para el envío de las tareas.
